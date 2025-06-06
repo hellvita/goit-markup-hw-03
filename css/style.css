@@ -56,7 +56,8 @@ a {
 }
 
 .header__nav-list,
-.header__contacts-list {
+.header__contacts-list,
+.features__list {
   padding: 0;
 }
 
@@ -159,4 +160,12 @@ button {
 
 .team__card {
   background-color: #fff;
+}
+
+.features__title.title-section {
+  display: none;
+}
+
+.section.features .container {
+  padding: 120px 156px;
 }
