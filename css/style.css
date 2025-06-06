@@ -224,6 +224,8 @@ button {
 
 .portfolio__card {
   flex-basis: calc((100% - 2 * 24px) / 3);
+  border: 1px solid #e7e9fc;
+  border-top-width: 0;
 }
 
 .page-container {
