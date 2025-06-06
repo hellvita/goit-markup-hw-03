@@ -108,6 +108,7 @@ button {
   letter-spacing: 0.04em;
   font-weight: 500;
   line-height: inherit;
+  border-radius: 4px;
 }
 
 .hero__button:hover,
@@ -159,6 +160,7 @@ button {
 
 .team__card {
   background-color: #fff;
+  border-radius: 4px;
 }
 
 .features__title.title-section {
