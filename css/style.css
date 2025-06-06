@@ -85,12 +85,17 @@ address {
   letter-spacing: inherit;
 }
 
+.section.hero .container {
+  padding: 188px 472px;
+}
+
 .hero__title {
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
   text-align: center;
   letter-spacing: inherit;
+  margin: 0 0 48px 0;
 }
 
 button {
