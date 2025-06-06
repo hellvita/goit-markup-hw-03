@@ -33,19 +33,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  max-width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.header .container {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -85,22 +72,12 @@ address {
   letter-spacing: inherit;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.hero .container {
-  margin: 68px 316px;
-}
-
 .hero__title {
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
   text-align: center;
   letter-spacing: inherit;
-  margin: 0 0 48px 0;
 }
 
 button {
