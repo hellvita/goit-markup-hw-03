@@ -85,9 +85,9 @@ address {
   letter-spacing: inherit;
 }
 
-.section.hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero__title {
