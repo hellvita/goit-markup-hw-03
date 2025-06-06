@@ -55,6 +55,15 @@ a {
   color: #f4f4fd;
 }
 
+.header__nav-list,
+.header__contacts-list {
+  padding: 0;
+}
+
+.header .container {
+  padding: 24px 156px;
+}
+
 .link.link--nav {
   font-size: 16px;
   font-weight: 500;
