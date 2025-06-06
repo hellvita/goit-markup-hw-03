@@ -90,6 +90,10 @@ address {
   padding-bottom: 120px;
 }
 
+.hero .container {
+  margin: 68px 316px;
+}
+
 .hero__title {
   font-size: 56px;
   line-height: 1.07;
