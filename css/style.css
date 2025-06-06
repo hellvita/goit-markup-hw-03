@@ -33,6 +33,19 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header .container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
