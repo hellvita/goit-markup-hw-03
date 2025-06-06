@@ -199,3 +199,14 @@ button {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.section.features .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features__list {
+  display: flex;
+  gap: 24px;
+}
