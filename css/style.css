@@ -206,7 +206,8 @@ button {
   align-items: center;
 }
 
-.features__list {
+.features__list,
+.team__list {
   display: flex;
   gap: 24px;
 }
