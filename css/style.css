@@ -58,7 +58,8 @@ a {
 .header__nav-list,
 .header__contacts-list,
 .features__list,
-.team__list {
+.team__list,
+.portfolio__list {
   padding: 0;
 }
 
@@ -177,4 +178,12 @@ button {
 
 .section.team .container {
   padding: 120px 156px;
+}
+
+.portfolio__title.title-section {
+  margin: 0 0 72px 0;
+}
+
+.section.portfolio .container {
+  padding: 57px 189px;
 }
