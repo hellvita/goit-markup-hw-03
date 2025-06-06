@@ -235,3 +235,7 @@ button {
 main {
   flex-grow: 1;
 }
+
+.footer__text {
+  width: 264px;
+}
