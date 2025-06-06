@@ -215,13 +215,13 @@ button {
 }
 
 .features__card {
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team__card {
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .portfolio__card {
-  width: calc((100% - 2 * 24px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
