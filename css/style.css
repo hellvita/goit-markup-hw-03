@@ -104,6 +104,10 @@ address {
 
 .section.hero .container {
   padding: 188px 472px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero__title {
@@ -127,6 +131,7 @@ button {
   font-weight: 500;
   line-height: inherit;
   border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .hero__button:hover,
