@@ -212,6 +212,7 @@ button {
 
 .footer__text {
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .title-section {
@@ -261,4 +262,14 @@ button {
 
 .portfolio__card-content.card-content {
   padding: 32px 16px;
+}
+
+.footer {
+  padding: 100px 0;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
