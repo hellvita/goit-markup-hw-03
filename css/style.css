@@ -23,44 +23,14 @@ ol {
   list-style-type: none;
 }
 
-img {
-  display: block;
-}
-
 a {
   text-decoration: none;
 }
 
-.container {
-  padding-right: 156px;
-  padding-left: 156px;
-}
-
-.header .container {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header__nav,
-.header__nav-list,
-.header__contacts-list {
-  display: flex;
-}
-
-.header__nav {
-  gap: 76px;
-}
-
-.header__nav-list,
-.header__contacts-list {
-  gap: 40px;
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .logo {
@@ -102,21 +72,12 @@ address {
   letter-spacing: inherit;
 }
 
-.section.hero .container {
-  padding: 188px 472px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .hero__title {
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
   text-align: center;
   letter-spacing: inherit;
-  margin: 0 0 48px 0;
 }
 
 button {
@@ -130,8 +91,6 @@ button {
   letter-spacing: 0.04em;
   font-weight: 500;
   line-height: inherit;
-  border-radius: 4px;
-  padding: 16px 32px;
 }
 
 .hero__button:hover,
@@ -169,7 +128,6 @@ button {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: inherit;
-  margin: 0 0 72px 0;
 }
 
 .hero,
@@ -183,79 +141,4 @@ button {
 
 .team__card {
   background-color: #fff;
-  border-radius: 4px;
-}
-
-.features__title.title-section {
-  display: none;
-}
-
-.section.team .container,
-.section.features .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.section.portfolio .container {
-  padding: 57px 189px;
-}
-
-.footer .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.section.features .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.features__list,
-.portfolio__list,
-.team__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.features__card {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
-
-.team__card {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
-
-.portfolio__card {
-  flex-basis: calc((100% - 2 * 24px) / 3);
-  border: 1px solid #e7e9fc;
-  border-top-width: 0;
-}
-
-.page-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex-grow: 1;
-}
-
-.footer__text {
-  width: 264px;
-  margin-top: 16px;
-}
-
-.item-text {
-  margin-top: 8px;
-}
-
-.card-content {
-  padding: 32px 16px;
-}
-
-.team__card-content.card-content {
-  text-align: center;
 }
