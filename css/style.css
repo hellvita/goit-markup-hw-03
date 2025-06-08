@@ -33,6 +33,36 @@ img {
   height: auto;
 }
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 156px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 76px;
+}
+
+.header__contacts {
+  display: flex;
+}
+
+.header__nav-list,
+.header__contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header__nav-list li,
+.header__contacts-list li {
+  align-content: center;
+}
+
+.header .link {
+  padding: 24px 0;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
