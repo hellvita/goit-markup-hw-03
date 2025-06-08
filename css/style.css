@@ -219,4 +219,24 @@ button {
 
 .team__card {
   background-color: #fff;
+  width: 264px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.section.team .container {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 0;
+  gap: 72px;
+  align-items: center;
+}
+
+.team__list {
+  display: flex;
+  gap: 24px;
+}
+
+.team__card-content.card-content {
+  text-align: center;
+  padding: 32px 0;
 }
