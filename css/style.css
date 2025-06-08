@@ -33,6 +33,12 @@ img {
   height: auto;
 }
 
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -40,9 +46,6 @@ img {
 .header .container {
   display: flex;
   justify-content: space-between;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header__nav {
@@ -154,8 +157,14 @@ button {
   color: #404bbf;
 }
 
-.section.features .container {
+.section.features .container,
+.section.team .container,
+.section.portfolio .container {
+  display: flex;
+  flex-direction: column;
   padding: 120px 0;
+  gap: 72px;
+  align-items: center;
 }
 
 .visually-hidden {
@@ -208,12 +217,12 @@ button {
   letter-spacing: inherit;
 }
 
-.hero,
-.footer {
+.hero .container,
+.footer .container {
   background-color: #2e2f42;
 }
 
-.team {
+.team .container {
   background-color: #f4f4fd;
 }
 
@@ -221,14 +230,6 @@ button {
   background-color: #fff;
   width: 264px;
   border-radius: 0px 0px 4px 4px;
-}
-
-.section.team .container {
-  display: flex;
-  flex-direction: column;
-  padding: 120px 0;
-  gap: 72px;
-  align-items: center;
 }
 
 .team__list {
@@ -239,4 +240,19 @@ button {
 .team__card-content.card-content {
   text-align: center;
   padding: 32px 0;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio__card {
+  width: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio__card-content.card-content {
+  padding: 32px 16px;
 }
