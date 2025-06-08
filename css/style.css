@@ -40,7 +40,9 @@ img {
 .header .container {
   display: flex;
   justify-content: space-between;
-  padding: 0 156px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header__nav {
