@@ -157,12 +157,18 @@ button {
   color: #404bbf;
 }
 
+.section.features,
+.section.team,
+.section.portfolio {
+  padding: 120px 0;
+}
+
 .section.features .container,
 .section.team .container,
 .section.portfolio .container {
   display: flex;
   flex-direction: column;
-  padding: 120px 0;
+
   gap: 72px;
   align-items: center;
 }
@@ -186,7 +192,7 @@ button {
 }
 
 .features__card {
-  width: 264px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .title-item {
@@ -217,18 +223,18 @@ button {
   letter-spacing: inherit;
 }
 
-.hero .container,
-.footer .container {
+.hero,
+.footer {
   background-color: #2e2f42;
 }
 
-.team .container {
+.team {
   background-color: #f4f4fd;
 }
 
 .team__card {
   background-color: #fff;
-  width: 264px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -250,7 +256,7 @@ button {
 }
 
 .portfolio__card {
-  width: calc((100% - 2 * 24px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio__card-content.card-content {
