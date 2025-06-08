@@ -109,12 +109,21 @@ address {
   letter-spacing: inherit;
 }
 
+.section.hero .container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 188px 0;
+  align-items: center;
+}
+
 .hero__title {
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
   text-align: center;
   letter-spacing: inherit;
+  max-width: 496px;
 }
 
 button {
@@ -128,6 +137,11 @@ button {
   letter-spacing: 0.04em;
   font-weight: 500;
   line-height: inherit;
+  padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero__button:hover,
