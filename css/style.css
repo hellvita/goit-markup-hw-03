@@ -154,12 +154,39 @@ button {
   color: #404bbf;
 }
 
+.section.features .container {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+
+.features__list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.features__card {
+  width: 264px;
+}
+
 .title-item {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: inherit;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .item-text,
