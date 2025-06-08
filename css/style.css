@@ -33,6 +33,10 @@ img {
   height: auto;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -55,7 +59,8 @@ img {
 }
 
 .header__nav-list li,
-.header__contacts-list li {
+.header__contacts-list li,
+.header__nav .logo {
   align-content: center;
 }
 
