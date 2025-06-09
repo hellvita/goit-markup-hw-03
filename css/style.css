@@ -50,7 +50,6 @@ img {
 
 .header__nav {
   display: flex;
-  gap: 76px;
 }
 
 .header__contacts {
@@ -63,10 +62,9 @@ img {
   gap: 40px;
 }
 
-.header__nav-list li,
-.header__contacts-list li,
-.header__nav .logo {
-  align-content: center;
+.header__nav-list,
+.header__contacts-list {
+  align-items: center;
 }
 
 .header .link {
@@ -81,6 +79,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo__highlight {
