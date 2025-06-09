@@ -227,7 +227,6 @@ button {
   background-color: #fff;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
-  border: 1px solid #e7e9fc;
 }
 
 .team__list {
@@ -249,6 +248,7 @@ button {
 
 .portfolio__card {
   flex-basis: calc((100% - 2 * 24px) / 3);
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio__card-content.card-content {
