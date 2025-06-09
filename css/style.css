@@ -79,6 +79,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.header .logo {
   margin-right: 76px;
 }
 
@@ -165,15 +168,6 @@ button {
   padding: 120px 0;
 }
 
-.section.features .container,
-.section.team .container,
-.section.portfolio .container {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
-  align-items: center;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -224,6 +218,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: inherit;
+  margin-bottom: 72px;
 }
 
 .hero,
@@ -270,10 +265,9 @@ button {
   padding: 100px 0;
 }
 
-.footer .container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .container-page {
